@@ -1,0 +1,29 @@
+.sidebar {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  /* margin-right: 30px; */
+  align-items: center;
+  width: 80px;
+}
+
+.sidebar div {
+  font-size: 10px;
+}
+
+.sidebar-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20px;
+  padding: 20px;
+}
+/* 
+.sidebar-link div {
+  text-align: center;
+} */
